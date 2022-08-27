@@ -116,7 +116,7 @@ class ManagementFeature(Feature):
         await ctx.send(f"Logging out now <:bot:1002153704645988372>")
         await ctx.bot.close()
 
-    @Feature.Command(name="invite")
+    @Feature.Command(name="jskinvite")
     async def jsk_invite(self, ctx: ContextA, *perms: str):
         """
         Retrieve the invite URL for this bot.
